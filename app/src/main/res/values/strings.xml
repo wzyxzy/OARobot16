@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">OARobot</string>
+    <string name="app_id">59f2e233</string>
+    <string name="weixin_app_id">wx05626de9f0d9b313</string>
+    <string name="weixin_corp_id">ww4c0daf999a9d1a67</string>
+    <string name="weixin_corpsecret">7RjCgxYwaBpLwIgedn_oMA0lI5fJkP8oTz7jD6MiW-g</string>
+    <string name="oa_mode_name">考勤接待系统</string>
+    <string name="chat_mode_name">互动模式</string>
+    <string name="mode_change">模式切换</string>
+    <string name="name_staff">姓名</string>
+    <string name="name_staff_english">全拼</string>
+    <string name="id_staff">工号</string>
+    <string name="name_part">部门</string>
+    <string name="telephone_num">电话</string>
+    <string name="staff_position">职位</string>
+    <string name="sign_up_time">打卡时间</string>
+    <string name="sign_up_type">打卡类型</string>
+    <string name="welcome_type">是否离职</string>
+    <string name="welcome_station">否</string>
+    <string name="welcome_room">是</string>
+    <string name="record_face_or_no">是否录入人脸</string>
+    <string name="face_has_recorded">已录入</string>
+    <string name="face_not_record">未录入</string>
+    <string name="face_no_record">未录入人脸</string>
+    <string name="face_has_record">已录入人脸</string>
+    <string name="setting_type">设置</string>
+    <string name="sure_name">  确认</string>
+    <string name="cancel_name">  取消</string>
+    <string name="record_again">  重录</string>
+    <string name="staff_manage">员工管理</string>
+    <string name="staff_adding">+  新增员工</string>
+    <string name="staff_delete">-  删除员工</string>
+    <string name="staff_edit">编辑员工</string>
+    <string name="staff_face_record">人脸录入</string>
+    <string name="time_manage">时间管理</string>
+    <string name="time_on_time">上班时间</string>
+    <string name="time_off_time">下班时间</string>
+    <string name="time_add_time">加班时间</string>
+    <string name="time_late_min">迟到区间(分钟)</string>
+    <string name="time_early_min">早退区间(分钟)</string>
+    <string name="dialog_manage">会话管理</string>
+    <string name="dialog_scene">场景</string>
+    <string name="dialog_text">内容</string>
+    <string name="pass_manage">密码修改</string>
+    <string name="account_access">用户登陆</string>
+    <string name="login_account">账号</string>
+    <string name="login_password">密码</string>
+    <string name="login_goto">登陆</string>
+    <string name="input_orial_pass">请输入原密码</string>
+    <string name="input_new_pass">请输入新密码</string>
+    <string name="input_new_pass_again">请再次输入新密码</string>
+    <string name="com_message">企业信息</string>
+    <string name="back_change">主题切换</string>
+    <string name="back_goto">返回</string>
+    <string name="tts_toast_format" formatted="false">缓冲进度为%d%%，播放进度为%d%%</string>
+    <string name="title_activity_login">请登录</string>
+
+
+</resources>

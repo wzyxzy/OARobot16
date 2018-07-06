@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_height"
+    android:background="@mipmap/background6"
+    android:orientation="vertical"
+    tools:context="com.zgty.oarobot.activity.AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/AppTextView4"
+            android:text="@string/setting_type"
+            android:textColor="@color/yellowText"
+            android:textSize="@dimen/main_type_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/staff_manage"
+            style="@style/AppTextView"
+            android:background="@color/redBackground"
+            android:text="@string/staff_manage" />
+
+        <TextView
+            android:id="@+id/time_manage"
+            style="@style/AppTextView"
+            android:background="@color/orangeBackground"
+            android:text="@string/time_manage" />
+
+        <TextView
+            android:id="@+id/dialog_manage"
+            style="@style/AppTextView"
+            android:background="@color/greenBackground"
+            android:text="@string/dialog_manage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pass_manage"
+            style="@style/AppTextView"
+            android:background="@color/blueBackground"
+            android:text="@string/pass_manage" />
+
+        <TextView
+            android:id="@+id/com_message"
+            style="@style/AppTextView"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/com_message" />
+
+        <TextView
+            android:id="@+id/back_change"
+            style="@style/AppTextView"
+            android:background="@color/purpleBackground"
+            android:text="@string/back_change" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/back_main"
+        style="@style/AppBack"
+        android:layout_marginLeft="@dimen/activity_main_padding"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
